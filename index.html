@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <style>
+        .comment-avatar {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        /* Общие стили для страницы */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #60b2ff;
+        }
+
+        header::before {
+           
+            background-image: url(first.jpg);
+            
+          
+          
+            filter: blur(10%);
+        }
+        /* Стили для шапки */
+        header {
+            font-size: 14px;
+            background-image: url(first.jpg);
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+         
+     
+        /* Стили для блока с информацией */
+        .info-block {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Стили для блока с комментариями */
+        .comments-block {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Стили для заголовка комментариев */
+        .comments-heading {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        /* Стили для комментариев */
+        .comment {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+
+        /* Стили для автора комментария */
+        .comment-author {
+            font-weight: bold;
+        }
+
+        /* Стили для текста комментария */
+        .comment-text {
+            margin-top: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Информационные системы и технологии в административном управлении
+            <div>Программа подготовки бакалавриата ИРНИТУ по направлению 09.03.02</div> </h1>
+    </header>
+    <div class="info-block">
+        <h2>Краткие сведения об образовательной программе</h2>
+        <p>Программа бакалавриата по профилю подготовки «Информационные системы и технологии в административном управлении» включает в себя изучение теоретических основ и приобретение практических навыков разработки программного обеспечения, создания и эксплуатации информационных систем и технологий, предназначенных для решения разнообразных задач: от автоматизации бизнес-процессов, до разработки мобильных и web-приложений и создания информационных технологий поддержки принятия решений. <p>В ходе обучения студенты учатся применять языки (C, C++, C#, Java, PHP, JavaScript, Python, Kotlin) и технологии программирования, в том числе web-технологии, технологии анализа данных и искусственного интеллекта.</p>
+         <h2>Возможные места прохождения производственной практики</h2>
+         <p>
+            <ol>
+                <li value="1">ISPsystem</li>
+                <li value="2">КРОК</li>
+                <li value="3">En+</li>
+                <li value="4">Yandex</li>
+                <li value="5">ИАЗ</li>
+                <li value="6">Rkit</li>
+                <li value="7">1PS.ru</li>
+            </ol>
+         </p>   
+         <h2>Кем работают наши выпускники:</h2>
+         <p>
+            <ul>
+                <li>Разработчик ПО</li>
+                <li>Web-разработчик</li>
+                <li>1С-разработчик</li>
+                <li>Web-аналитик</li>
+                <li>UX-специалист</li>
+                <li>Системный аналитик</li>
+                <li>Data Engineer</li>
+                <li>Data Scientist</li>
+                <li>QA-специалист</li>
+                <li>Менеджер ИТ-проектов</li>
+                <li>Desktop-разработчик</li>
+                <li>DevOps</li>
+                <li>Android/iOS-разработчик</li>
+                <li>VR-разработчик</li>
+            </ul>
+         </p>   
+            </p>
+    </div>
+    <div class="comments-block">
+        <h2 class="comments-heading">Комментарии пользователей</h2>
+        <div class="comment">
+            <img class="comment-avatar" src="user1.png" alt="Аватар пользователя 1">
+            <div>
+                <p class="comment-author">Олечка Буузова</p>
+                <p class="comment-text">Отличный сайт!</p>
+            </div>
+        </div>
+        <div class="comment">
+            <img class="comment-avatar" src="User2.jpg" alt="Аватар пользователя 2">
+            <div>
+                <p class="comment-author">Назар Обладает</p>
+                <p class="comment-text">Мне нравится дизайн.</p>
+            </div>
+        </div>
+        <!-- Добавьте больше комментариев здесь, каждый с уникальной аватаркой -->
+    </div>
+    <footer>
+        Приемная комиссия ИРНИТУ<br>
+        8(3952)405-405<br>
+        <a href="mailto:cpk@istu.edu">cpk@istu.edu</a>
+    </footer>
+</body>
+</html>
